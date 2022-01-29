@@ -2,7 +2,7 @@
 //  SwiftUI_BusinessCardApp.swift
 //  SwiftUI_BusinessCard
 //
-//  Created by Admin on 29/01/22.
+//  Created by Bhavya Thacker on 29/01/22.
 //
 
 import SwiftUI

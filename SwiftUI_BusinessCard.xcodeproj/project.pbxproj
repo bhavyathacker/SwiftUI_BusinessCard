@@ -11,6 +11,8 @@
 		84E4469727A54FCB00965F76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4469627A54FCB00965F76 /* ContentView.swift */; };
 		84E4469927A54FCD00965F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E4469827A54FCD00965F76 /* Assets.xcassets */; };
 		84E4469C27A54FCD00965F76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E4469B27A54FCD00965F76 /* Preview Assets.xcassets */; };
+		84E446A427A5506900965F76 /* sofia_pro_regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E446A327A5506900965F76 /* sofia_pro_regular.otf */; };
+		84E446A627A568E600965F76 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E446A527A568E600965F76 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		84E4469627A54FCB00965F76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84E4469827A54FCD00965F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E4469B27A54FCD00965F76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84E446A327A5506900965F76 /* sofia_pro_regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sofia_pro_regular.otf; path = ../../../../../../../../AndroidStudioProjects/Git/DairySurvey/app/src/main/res/font/sofia_pro_regular.otf; sourceTree = "<group>"; };
+		84E446A527A568E600965F76 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		84E4469327A54FCB00965F76 /* SwiftUI_BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				84E446A227A5505400965F76 /* fonts */,
 				84E4469427A54FCB00965F76 /* SwiftUI_BusinessCardApp.swift */,
 				84E4469627A54FCB00965F76 /* ContentView.swift */,
+				84E446A527A568E600965F76 /* InfoView.swift */,
 				84E4469827A54FCD00965F76 /* Assets.xcassets */,
 				84E4469A27A54FCD00965F76 /* Preview Content */,
 			);
@@ -65,6 +71,14 @@
 				84E4469B27A54FCD00965F76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84E446A227A5505400965F76 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84E446A327A5506900965F76 /* sofia_pro_regular.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E4469C27A54FCD00965F76 /* Preview Assets.xcassets in Resources */,
+				84E446A427A5506900965F76 /* sofia_pro_regular.otf in Resources */,
 				84E4469927A54FCD00965F76 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E4469727A54FCB00965F76 /* ContentView.swift in Sources */,
+				84E446A627A568E600965F76 /* InfoView.swift in Sources */,
 				84E4469527A54FCB00965F76 /* SwiftUI_BusinessCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
